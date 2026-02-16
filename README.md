@@ -93,7 +93,7 @@ Each option acts as an edge pointing to:
 ### 1. Clone Repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/8309h/conversation_engine.git
 cd modular-conversation-engine
 ````
 
