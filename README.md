@@ -1,8 +1,4 @@
-Perfect 👍
-Below is your **complete README.md content in one single copy-paste block**.
-Just copy everything and paste into your `README.md`.
 
----
 
 ````md
 # Modular Conversation Flow Engine
