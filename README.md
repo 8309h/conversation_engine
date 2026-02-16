@@ -1,8 +1,4 @@
-Perfect 👍
-Below is your **complete README.md content in one single copy-paste block**.
-Just copy everything and paste into your `README.md`.
 
----
 
 ````md
 # Modular Conversation Flow Engine
@@ -93,7 +89,7 @@ Each option acts as an edge pointing to:
 ### 1. Clone Repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/8309h/conversation_engine.git
 cd modular-conversation-engine
 ````
 
