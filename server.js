@@ -1,6 +1,8 @@
 require("dotenv").config();
 const express = require("express");
 const connectDB = require("./src/config/db");
+const adminRoutes = require("./src/routes/admin.routes");
+const userRoutes = require("./src/routes/user.routes");
 
 const app = express();
 
@@ -10,9 +12,11 @@ app.get("/", (req, res) => {
       res.json({ message: "Conversation Engine API Running" });
 });
 
-const adminRoutes = require("./src/routes/admin.routes");
+
 
 app.use("/admin", adminRoutes);
+app.use("/user", userRoutes);
+
 
 
 // Connect DB
